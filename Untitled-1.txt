@@ -1,0 +1,99 @@
+<!--类型声明：html-->
+<!doctype html>
+
+<!--以下是网页代码部分-->
+<html>
+
+<!--以下是网页head部分-->
+<head>
+    <meta charset="utf-8">
+    <title>My First Web-我的第一个网页</title>
+</head>
+
+<!--以下是网页body即内容部分-->
+<body>
+
+<!--下面是第一个标题及其内容-->
+    <h1>标题1</h1>
+        <p>段落1</p>
+        <p>段落2</p>
+        <hr/>
+    <h2>标题1</h2>
+        <p>段落1</p>
+        <p>段落2</p>
+        <hr/>
+    <h3>标题1</h3>
+        <a href="http://www.baidu.com" target="_blank">百度链接</a><br>
+        <a href="http://www.runoob.com/" target="_blank">菜鸟教程</a>
+        <hr/>
+    <h4>标题1</h4>
+        <!--<img src="‪D:\WeChat\WeChat Files\Rainy15811529176\Files\img_game.jpg" width="323" height="574"/>-->
+        <hr/>
+    <h5>标题1</h5>
+        <hr/>
+    <h6>标题1</h6>
+        <p>段落1</p>
+        <p>段落2</p>
+        <hr/>
+<!--下面是第二个标题及其内容-->
+    <h1>标题2</h1>
+        <p>段落3</p>
+        <p>段落4</p>
+        <hr/>
+    <h2>标题3</h2>
+        <p>段落5-1<br>段落5-2<br>段落5-3</p>
+<!--下面尝试br的换行效果-->
+    <h1>春晓</h1>
+        <p>
+            春眠不觉晓<br>
+            处处闻啼鸟<br>
+            夜来风雨声<br>
+            花落知多少
+        </p>
+
+<!--下面尝试文本格式化-->
+    <h1>文本格式化</h1><br>
+    <b>这是加粗字体</b><br>
+    <strong>这也是加粗字体</strong><br>
+    <i>这是斜体</i><br>
+    <em>这也是斜体</em><br>
+    <p>上标<sup>这是上标</sup><br></p>
+    <p>下标<sub>这是下标</sub><br></p>
+    <big>字体放大</big><br>
+    <small>字体缩小</small>
+    <pre><big><big>
+        pre内部的内容会原样输出
+        不管有几个    空格    或者
+        换行
+        
+        空行
+        都是一样
+        的
+        </big></big>
+    </pre><br>
+    <code>电脑输出</code><br>
+    <kbd>键盘输入</kbd><br>
+    <tt>打字机文本</tt><br>
+    <smap>计算机代码样本</smap><br>
+    <var>计算机变量</var><br>
+    <p><strong>PS:</strong>没啥2333</p><br>
+    <p>The <abbr title="BeiHang University">BUAA</abbr> was found in 1952.</p><br>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The worlds leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote><br>
+    <p>
+        <q>Build a future where people live in harmony with nature.</q>
+        We hope they succeed.
+    </p><br>
+    <p>
+        <cite>The Scream</cite> by Edward Munch. Painted in 1893.
+    </p><br>
+    <hr/>
+<!--下面尝试html链接ID属性-->
+    <h1>html链接</h1>
+        <!--<a id="tip"><strong>这是一个提示</strong></a>
+        <p>不知道该写啥随便写几个字对付一下吧</p><br>-->
+        <a href="#tips">点我跳到前面的提示</a>
+</body>
+
+</html>
